@@ -26,7 +26,7 @@
 
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-                    <div class="m-2">
+                    <div class="m-2 P-5">
                             <!-- partial:../../partials/_navbar.html -->
                             <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
                                 <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
