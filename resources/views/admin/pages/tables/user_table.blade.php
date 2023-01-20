@@ -293,50 +293,52 @@
             </div>
             <div class="row">
 
-                  <div class="col-lg-12 grid-margin stretch-card">
+                  <div class="col-lg-12 col-md-12 col-sm-12 grid-margin stretch-card">
                     <div class="card">
                       <div class="card-body">
-                        <h4 class="card-title">Service Table</h4>
 
-                        <table class="table table-bordered table-hover">
-                          <thead>
-                            <tr>
-                              <th> ID </th>
-                              <th>Name</th>
-                              <th> Admin </th>
-                              <th> Email </th>
-                              <th> Phonenumber</th>
-                              <th> Address</th>
-                              <th> Status</th>
-                              <th> Image</th>
-                              <th> Edit</th>
-                              <th> Delete</th>
-                            </tr>
-                          </thead>
-                          <tbody>
+                            <h4 class="card-title">Service Table</h4>
 
-                            @foreach ($user as $users)
+                            <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                <th> ID </th>
+                                <th>Name</th>
+                                <th> Admin </th>
+                                <th> Email </th>
+                                <th> Phonenumber</th>
+                                <th> Address</th>
+                                <th> Status</th>
+                                <th> Image</th>
+                                <th> Edit</th>
+                                <th> Delete</th>
+                                </tr>
+                            </thead>
+                            <tbody>
 
-                            <tr>
-                                <td>{{$users->id}}</td>
-                                <td>{{$users->name}}</td>
-                                <td>{{$users->is_admin}}</td>
-                                <td>{{$users->email}}</td>
-                                <td>{{$users->phonenumber}}</td>
-                                <td>{{$users->address}}</td>
-                                <td>{{$users->status}}</td>
-                                <td>{{$users->image}}</td>
-                                <td> <button type="button" class="btn btn-outline-info btn-icon-text"> Edit
-                                </button></td>
-                                <td><button type="button" class="btn btn-outline-danger btn-icon-text"> Delete
-                                </button></td>
-                              </tr>
+                                @foreach ($user as $users)
 
-                            @endforeach
+                                <tr>
+                                    <td>{{$users->id}}</td>
+                                    <td>{{$users->name}}</td>
+                                    <td>{{$users->is_admin}}</td>
+                                    <td>{{$users->email}}</td>
+                                    <td>{{$users->phonenumber}}</td>
+                                    <td>{{$users->address}}</td>
+                                    <td>{{$users->status}}</td>
+                                    <td>{{$users->image}}</td>
+                                    <td> <button type="button" class="btn btn-outline-info btn-icon-text"> Edit
+                                    </button></td>
+                                    <td><button type="button" class="btn btn-outline-danger btn-icon-text"> Delete
+                                    </button></td>
+                                </tr>
+
+                                @endforeach
 
 
-                          </tbody>
-                        </table>
+                            </tbody>
+                            </table>
+
                       </div>
                     </div>
                   </div>
