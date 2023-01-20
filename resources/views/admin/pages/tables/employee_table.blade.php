@@ -180,152 +180,121 @@
                                 <!-- partial:../../partials/_sidebar.html -->
 
                                 <nav class="sidebar sidebar-offcanvas" id="sidebar">
-                                <ul class="nav">
-                                    <li class="nav-item nav-profile">
-                                    <a href="#" class="nav-link">
-                                        <div class="nav-profile-image">
-                                        <img src="assets/images/faces/face1.jpg" alt="profile">
-                                        <span class="login-status online"></span>
-                                        <!--change to offline or busy as needed-->
+
+                                    <ul class="nav">
+                                        <li class="nav-item nav-profile">
+                                        <a href="#" class="nav-link">
+                                            <div class="nav-profile-image">
+                                            <img src="assets/images/faces/face1.jpg" alt="profile">
+                                            <span class="login-status online"></span>
+                                            <!--change to offline or busy as needed-->
+                                            </div>
+                                            <div class="nav-profile-text d-flex flex-column">
+                                            <span class="font-weight-bold mb-2">Team Creative</span>
+                                            <span class="text-secondary text-small">Admin Manager</span>
+                                            </div>
+                                            <i class="mdi mdi-bookmark-check text-success nav-profile-badge"></i>
+                                        </a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" href="{{route('dashboard')}}">
+                                            <span class="menu-title">Dashboard</span>
+                                            <i class="mdi mdi-home menu-icon"></i>
+                                        </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                        <a class="nav-link" href="{{route('appointment')}}">
+                                            <span class="menu-title">Appointment</span>
+                                            <i class="mdi mdi-chart-bar menu-icon"></i>
+                                        </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="collapse" href="#ui-employee" aria-expanded="false" aria-controls="ui-basic">
+                                            <span class="menu-title">Employees</span>
+                                            <i class="menu-arrow"></i>
+                                            <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+                                        </a>
+                                        <div class="collapse" id="ui-employee">
+                                            <ul class="nav flex-column sub-menu">
+                                            <li class="nav-item"> <a class="nav-link" href="{{route('create.employee')}}">Create Employee</a></li>
+                                            <li class="nav-item"> <a class="nav-link" href="#">Edits Employee</a></li>
+                                            <li class="nav-item"> <a class="nav-link" href="{{route('employee.table')}}">View Employees</a></li>
+                                            </ul>
                                         </div>
-                                        <div class="nav-profile-text d-flex flex-column">
-                                        <span class="font-weight-bold mb-2">Team Creative</span>
-                                        <span class="text-secondary text-small">Admin Manager</span>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="collapse" href="#ui-users" aria-expanded="false" aria-controls="ui-basic">
+                                            <span class="menu-title">Users</span>
+                                            <i class="menu-arrow"></i>
+                                            <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+                                        </a>
+                                        <div class="collapse" id="ui-users">
+                                            <ul class="nav flex-column sub-menu">
+                                            <li class="nav-item"> <a class="nav-link" href="#">Edit User</a></li>
+                                            <li class="nav-item"> <a class="nav-link" href="{{route('user.table')}}">View Users</a></li>
+                                            </ul>
                                         </div>
-                                        <i class="mdi mdi-bookmark-check text-success nav-profile-badge"></i>
-                                    </a>
-                                    </li>
-                                    <li class="nav-item">
-                                    <a class="nav-link" href="{{route('dashboard')}}">
-                                        <span class="menu-title">Dashboard</span>
-                                        <i class="mdi mdi-home menu-icon"></i>
-                                    </a>
-                                    </li>
+                                        </li>
 
-                                    <li class="nav-item">
-                                    <a class="nav-link" href="{{route('appointment')}}">
-                                        <span class="menu-title">Appointment</span>
-                                        <i class="mdi mdi-chart-bar menu-icon"></i>
-                                    </a>
-                                    </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="collapse" href="#ui-service" aria-expanded="false" aria-controls="ui-basic">
+                                            <span class="menu-title">Service</span>
+                                            <i class="menu-arrow"></i>
+                                            <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+                                        </a>
+                                        <div class="collapse" id="ui-service">
+                                            <ul class="nav flex-column sub-menu">
+                                            <li class="nav-item"> <a class="nav-link" href="{{route('create.service')}}">Create Service/Category</a></li>
+                                            <li class="nav-item"> <a class="nav-link" href="{{route('service.table')}}">View Services</a></li>
+                                            <li class="nav-item"> <a class="nav-link" href="{{route('category.table')}}">View Categories</a></li>
 
-                                    <li class="nav-item">
-                                    <a class="nav-link" data-bs-toggle="collapse" href="#ui-employee" aria-expanded="false" aria-controls="ui-basic">
-                                        <span class="menu-title">Employees</span>
-                                        <i class="menu-arrow"></i>
-                                        <i class="mdi mdi-crosshairs-gps menu-icon"></i>
-                                    </a>
-                                    <div class="collapse" id="ui-employee">
-                                        <ul class="nav flex-column sub-menu">
-                                        <li class="nav-item"> <a class="nav-link" href="{{route('create.employee')}}">Create Employee</a></li>
-                                        <li class="nav-item"> <a class="nav-link" href="#">Edits Employee</a></li>
-                                        <li class="nav-item"> <a class="nav-link" href="{{route('employee.table')}}">View Employees</a></li>
-                                        </ul>
-                                    </div>
-                                    </li>
-                                    <li class="nav-item">
-                                    <a class="nav-link" data-bs-toggle="collapse" href="#ui-users" aria-expanded="false" aria-controls="ui-basic">
-                                        <span class="menu-title">Users</span>
-                                        <i class="menu-arrow"></i>
-                                        <i class="mdi mdi-crosshairs-gps menu-icon"></i>
-                                    </a>
-                                    <div class="collapse" id="ui-users">
-                                        <ul class="nav flex-column sub-menu">
-                                        <li class="nav-item"> <a class="nav-link" href="#">Edit User</a></li>
-                                        <li class="nav-item"> <a class="nav-link" href="{{route('user.table')}}">View Users</a></li>
-                                        </ul>
-                                    </div>
-                                    </li>
+                                            </ul>
+                                        </div>
+                                        </li>
 
-                                    <li class="nav-item">
-                                    <a class="nav-link" data-bs-toggle="collapse" href="#ui-service" aria-expanded="false" aria-controls="ui-basic">
-                                        <span class="menu-title">Service</span>
-                                        <i class="menu-arrow"></i>
-                                        <i class="mdi mdi-crosshairs-gps menu-icon"></i>
-                                    </a>
-                                    <div class="collapse" id="ui-service">
-                                        <ul class="nav flex-column sub-menu">
-                                        <li class="nav-item"> <a class="nav-link" href="{{route('create.service')}}">Create Service/Category</a></li>
-                                        <li class="nav-item"> <a class="nav-link" href="{{route('service.table')}}">View Services</a></li>
-                                        <li class="nav-item"> <a class="nav-link" href="{{route('category.table')}}">View Categories</a></li>
-
-                                        </ul>
-                                    </div>
-                                    </li>
-
-                                    <li class="nav-item">
-                                    <a class="nav-link" href="{{route('revenue')}}">
-                                        <span class="menu-title">Revenue</span>
-                                        <i class="mdi mdi-chart-bar menu-icon"></i>
-                                    </a>
-                                    </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" href="{{route('revenue')}}">
+                                            <span class="menu-title">Revenue</span>
+                                            <i class="mdi mdi-chart-bar menu-icon"></i>
+                                        </a>
+                                        </li>
 
 
-                                    <li class="nav-item">
-                                    <a class="nav-link" href="{{route('settings')}}">
-                                        <span class="menu-title">Settings</span>
-                                        <i class="mdi mdi-crosshairs-gps menu-icon"></i>
-                                    </a>
-                                    </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" href="{{route('settings')}}">
+                                            <span class="menu-title">Settings</span>
+                                            <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+                                        </a>
+                                        </li>
 
-                                </ul>
+                                    </ul>
+
                                 </nav>
+
+
 
                                 <!-- partial -->
                                 <div class="main-panel">
-                                <div class="content-wrapper">
-                                    <div class="page-header">
-                                        <h3 class="page-title"> Employees </h3>
-                                        <nav aria-label="breadcrumb">
-                                            <ol class="breadcrumb">
-                                            <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                                            <li class="breadcrumb-item active" aria-current="page">Employees Table</li>
-                                            </ol>
-                                        </nav>
-                                    </div>
 
-                                    <div class="row">
-
-                                        <div class="col-md-3 grid-margin stretch-card">
-                                        <div class="card">
-                                            <div class="card-body">
-                                            <h4 class="card-title">Launderer</h4>
-                                            <canvas id="traffic"></canvas>
-                                            <div id="traffic-legend" class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
-
-                                            </div>
-                                        </div>
-                                        </div>
-
-
-
-                                            <div class="col-md-3 grid-margin stretch-card">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                <h4 class="card-title">Residential Cleaners</h4>
-                                                <canvas id="traffic"></canvas>
-                                                <div id="traffic-legend" class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
-
-                                                </div>
-                                            </div>
+                                        <div class="content-wrapper">
+                                            <div class="page-header">
+                                                <h3 class="page-title"> Employees </h3>
+                                                <nav aria-label="breadcrumb">
+                                                    <ol class="breadcrumb">
+                                                    <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                                                    <li class="breadcrumb-item active" aria-current="page">Employees Table</li>
+                                                    </ol>
+                                                </nav>
                                             </div>
 
-
+                                            <div class="row">
 
                                                 <div class="col-md-3 grid-margin stretch-card">
                                                 <div class="card">
                                                     <div class="card-body">
-                                                    <h4 class="card-title">Commercial Cleaning</h4>
-                                                    <canvas id="traffic"></canvas>
-                                                    <div id="traffic-legend" class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
-
-                                                    </div>
-                                                </div>
-                                                </div>
-                                                <div class="col-md-3 grid-margin stretch-card">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                    <h4 class="card-title">Sanitizers and Disinfectant Technician</h4>
+                                                    <h4 class="card-title">Launderer</h4>
                                                     <canvas id="traffic"></canvas>
                                                     <div id="traffic-legend" class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
 
@@ -334,97 +303,149 @@
                                                 </div>
 
 
-                                    </div>
 
-                                    <div class="row">
+                                                    <div class="col-md-3 grid-margin stretch-card">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                        <h4 class="card-title">Residential Cleaners</h4>
+                                                        <canvas id="traffic"></canvas>
+                                                        <div id="traffic-legend" class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
 
-                                        <div class="col-md-3 grid-margin stretch-card">
-                                        <div class="card">
-                                            <div class="card-body">
-                                            <h4 class="card-title">Janitors</h4>
-                                            <canvas id="traffic"></canvas>
-                                            <div id="traffic-legend" class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+
+
+
+                                                        <div class="col-md-3 grid-margin stretch-card">
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                            <h4 class="card-title">Commercial Cleaning</h4>
+                                                            <canvas id="traffic"></canvas>
+                                                            <div id="traffic-legend" class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
+
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                        <div class="col-md-3 grid-margin stretch-card">
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                            <h4 class="card-title">Sanitizers and Disinfectant Technician</h4>
+                                                            <canvas id="traffic"></canvas>
+                                                            <div id="traffic-legend" class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
+
+                                                            </div>
+                                                        </div>
+                                                        </div>
+
 
                                             </div>
-                                        </div>
-                                        </div>
+
+                                            <div class="row">
+
+                                                <div class="col-md-3 grid-margin stretch-card">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                    <h4 class="card-title">Janitors</h4>
+                                                    <canvas id="traffic"></canvas>
+                                                    <div id="traffic-legend" class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
+
+                                                    </div>
+                                                </div>
+                                                </div>
 
 
-                                    </div>
-
-                                    <div class="row justify-content-center">
-
-                                        <div class="col-lg-8 col-md-8 col-sm-12 grid-margin stretch-card">
-                                            <div class="card">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Employee Table</h4>
-
-                                                <table class="table table-bordered table-hover">
-                                                <thead>
-                                                    <tr>
-                                                    <th> # </th>
-                                                    <th> Name </th>
-                                                    <th> Email </th>
-                                                    <th> Phonenumber </th>
-                                                    <th> Password </th>
-                                                    <th> Gender </th>
-                                                    <th> Age </th>
-                                                    <th> City </th>
-                                                    <th> Services </th>
-                                                    <th>Edit</th>
-                                                    <th>Delete</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-
-                                                    @foreach ($employee as $employees)
-
-
-                                                    <tr>
-                                                    <td>{{$employees->id}}</td>
-                                                    <td>{{$employees->name}}</td>
-                                                    <td>{{$employees->email}}</td>
-                                                    <td>{{$employees->phonenumber}}</td>
-                                                    <td>{{$employees->password}}</td>
-                                                    <td>{{$employees->gender}}</td>
-                                                    <td>{{$employees->age}}</td>
-                                                    <td>{{$employees->city}}</td>
-                                                    <td>{{$employees->service}}</td>
-                                                    <td>
-                                                        <a role="button" class="btn btn-outline-info btn-icon-text" href="{{route('employee.edit',$employees->id)}}"> Edit
-                                                        </a>
-                                                    </td>
-                                                    <td> <a role="button" class="btn btn-outline-danger btn-icon-text" href="{{route('employee.destroy',$employees->id)}}"> Delete
-                                                    </a></td>
-                                                    </tr>
-
-                                                    @endforeach
-                                                </tbody>
-                                                </table>
                                             </div>
+
+                                            <div class="row">
+
+
+                                                <div class="col-lg-12 col-md-12 col-sm-12 grid-margin stretch-card">
+
+                                                    <div class="m-5">
+
+                                                        <div class="card">
+
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Employee Table</h4>
+
+                                                                <table class="table table-responsive table-bordered table-hover">
+
+
+                                                                    <thead>
+                                                                        <tr>
+                                                                        <th> # </th>
+                                                                        <th> Name </th>
+                                                                        <th> Email </th>
+                                                                        <th> Phonenumber </th>
+                                                                        <th> Password </th>
+                                                                        <th> Gender </th>
+                                                                        <th> Age </th>
+                                                                        <th> City </th>
+                                                                        <th> Services </th>
+                                                                        <th>Edit</th>
+                                                                        <th>Delete</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+
+                                                                        @foreach ($employee as $employees)
+
+
+                                                                        <tr>
+
+                                                                                <td>{{$employees->id}}</td>
+                                                                                <td>{{$employees->name}}</td>
+                                                                                <td>{{$employees->email}}</td>
+                                                                                <td>{{$employees->phonenumber}}</td>
+                                                                                <td>{{$employees->password}}</td>
+                                                                                <td>{{$employees->gender}}</td>
+                                                                                <td>{{$employees->age}}</td>
+                                                                                <td>{{$employees->city}}</td>
+                                                                                <td>{{$employees->service}}</td>
+                                                                                <td>
+                                                                                    <a role="button" class="btn btn-outline-info btn-icon-text" href="{{route('employee.edit',$employees->id)}}"> Edit
+                                                                                    </a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a role="button" class="btn btn-outline-danger btn-icon-text" href="{{route('employee.destroy',$employees->id)}}"> Delete
+                                                                                    </a>
+                                                                                </td>
+
+                                                                        </tr>
+
+                                                                        @endforeach
+                                                                    </tbody>
+
+
+                                                                </table>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
                                             </div>
-                                        </div>
-
-                                        <div class="col-lg-2 col-md-2 col-sm-12 grid-margin stretch-card">
 
                                         </div>
+                                        <!-- content-wrapper ends -->
+                                        <!-- partial:../../partials/_footer.html -->
+                                        <footer class="footer">
 
+                                            <div class="container-fluid d-flex justify-content-between">
+                                            <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright © TidyUp 2023</span>
+                                            </div>
 
+                                        </footer>
+                                        <!-- partial -->
 
-                                    </div>
-                                </div>
-                                <!-- content-wrapper ends -->
-                                <!-- partial:../../partials/_footer.html -->
-                                <footer class="footer">
-
-                                    <div class="container-fluid d-flex justify-content-between">
-                                    <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright © TidyUp 2023</span>
-                                    </div>
-
-                                </footer>
-                                <!-- partial -->
                                 </div>
                                 <!-- main-panel ends -->
+
+
                             </div>
                             <!-- page-body-wrapper ends -->
 
