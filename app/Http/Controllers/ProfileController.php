@@ -59,7 +59,8 @@ class ProfileController extends Controller
 
         $user=auth()->user();
 
-        return view('setting.info',['user' => $user]);
+        return view('Setting.info',['user' => $user]);
+
     }
 
 
