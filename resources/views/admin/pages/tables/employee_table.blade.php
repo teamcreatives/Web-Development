@@ -275,13 +275,13 @@
                                 <div class="main-panel">
                                 <div class="content-wrapper">
                                     <div class="page-header">
-                                    <h3 class="page-title"> Employees </h3>
-                                    <nav aria-label="breadcrumb">
-                                        <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Employees Table</li>
-                                        </ol>
-                                    </nav>
+                                        <h3 class="page-title"> Employees </h3>
+                                        <nav aria-label="breadcrumb">
+                                            <ol class="breadcrumb">
+                                            <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page">Employees Table</li>
+                                            </ol>
+                                        </nav>
                                     </div>
 
                                     <div class="row">
@@ -352,9 +352,9 @@
 
                                     </div>
 
-                                    <div class="row">
+                                    <div class="row justify-content-center">
 
-                                        <div class="col-lg-12 col-md-12 col-sm-12 grid-margin stretch-card">
+                                        <div class="col-lg-8 col-md-8 col-sm-12 grid-margin stretch-card">
                                             <div class="card">
                                             <div class="card-body">
                                                 <h4 class="card-title">Employee Table</h4>
@@ -403,6 +403,10 @@
                                                 </table>
                                             </div>
                                             </div>
+                                        </div>
+
+                                        <div class="col-lg-2 col-md-2 col-sm-12 grid-margin stretch-card">
+
                                         </div>
 
 
