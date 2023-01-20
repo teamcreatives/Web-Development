@@ -362,7 +362,7 @@
 
                                                 <div class="col-lg-12 col-md-12 col-sm-12 grid-margin stretch-card">
 
-                                                    <div class="mx-auto">
+                                                    <div class="">
 
                                                         <div class="card">
 
