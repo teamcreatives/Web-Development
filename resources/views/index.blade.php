@@ -19,7 +19,7 @@
 
                                 <h1>We design digital products that help grow businesses</h1>
                                   <h2>We are team of talented designers making websites with Bootstrap</h2>
-                                  <a href="{{ route('account')}}" class="btn btn-info text-white scrollto">Setting</a>
+                                  <a href="{{ route('info')}}" class="btn btn-info text-white scrollto">Setting</a>
 
 
                               </div>

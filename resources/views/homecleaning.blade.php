@@ -18,7 +18,7 @@
 
 
 
-                                <a href="{{ route('account')}}" class="btn btn-info text-white scrollto mb-4">Setting</a>
+                                <a href="{{ route('info')}}" class="btn btn-info text-white scrollto mb-4">Setting</a>
 
                                 <div class="mb-3">
 

@@ -88,7 +88,7 @@ Route::middleware(['auth'])->group(function(){
     Route::get('/home', [ProfileController::class, 'index'])->name('home');
     Route::get('/profile{id}', [ProfileController::class, 'profile'])->name('profile');
     Route::post('/profile{id}', [ProfileController::class, 'update'])->name('profile.update');
-    Route::get('/account', [ProfileController::class, 'info'])->name('account');
+    Route::get('/info', [ProfileController::class, 'info'])->name('info');
     Route::get('/change-password', [ProfileController::class, 'changePassword'])->name('change-password');
     Route::post('/change-password', [ProfileController::class, 'updatePassword'])->name('update-password');
 
