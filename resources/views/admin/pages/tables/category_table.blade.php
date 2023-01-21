@@ -297,7 +297,7 @@
                                                 <thead>
                                                     <tr>
                                                     <th> # </th>
-                                                    <th> Service_Id </th>
+                                                    <th> Service </th>
                                                     <th> Name </th>
                                                     <th> Cost </th>
                                                     <th> Edit</th>
@@ -310,9 +310,9 @@
                                                     @foreach ($category as $categories)
                                                     <tr>
                                                     <td>{{$categories->id}}</td>
-                                                    <td>{{$categories->service_id}}</td>
+                                                    <td>{{$categories->service->name}}</td>
                                                     <td>{{$categories->name}}</td>
-                                                    <td>{{$categories->Cost}}</td>
+                                                    <td>{!!$categories->cost !!}</td>
                                                     <td>
                                                         <a role="button" class="btn btn-outline-info btn-icon-text" href="{{route('categories.edit',$categories->id)}}"> Edit
                                                         </a>

@@ -59,7 +59,7 @@ Route::get('/servicetable', [ServiceController::class, 'show'])->name('service.t
 Route::get('/editcategory{id}', [CategoriesController::class, 'edit'])->name('categories.edit');
 Route::post('/updatecategory{id}', [CategoriesController::class, 'update'])->name('categories.update');
 Route::get('/deletecategory{id}', [CategoriesController::class, 'destroy'])->name('categories.destroy');
-Route::get('/categorytable', [CategoriesController::class, 'show'])->name('category.table');
+Route::get('/category-table', [CategoriesController::class, 'show'])->name('category.table');
 
 
 // All Users Routes

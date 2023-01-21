@@ -49,7 +49,8 @@ class CategoriesController extends Controller
     {
         //
         $admin=auth()->user();
-        $category=Category::all();
+        $category=Category::with('service')->get();
+        // dd($category);
         return view('admin.pages.tables.category_table',['category' => $category,'admin'=> $admin]);
 
     }

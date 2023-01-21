@@ -1,8 +1,9 @@
 <?php
 
-use App\Http\Controllers\Api\AuthController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,7 +23,7 @@ Route::get('/home', [UserController::class, 'index'])->name('home');
 
 Route::group(['middleware' => 'auth:sanctum'], function(){
 
-    // Route::get('/home', [App\Http\Controllers\Api\UserController::class, 'index']);
+    Route::get('/services', [UserController::class, 'getServices']);
 
 
 
