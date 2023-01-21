@@ -1,0 +1,83 @@
+.bg-custom{
+    background-color:rgba(255, 255, 255, .9);
+}
+.shadow-on-scroll{
+    height: 80px;
+    position: sticky;
+    top: -16px;
+    z-index: 1;
+}
+.shadow-on-scroll::before,
+.shadow-on-scroll::after{
+    content: "";
+    display: block;
+    height: 16px;
+    position: sticky;
+}
+.shadow-on-scroll::before{
+    top: 48px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.shadow-on-scroll::after{
+    background: linear-gradient(white 10%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.4) 70%, transparent);
+top: 0;
+z-index: 2;
+}
+.shadow-on-scroll .is-toolbar{
+height: 64px;
+position: sticky;
+top: 0px;
+margin-top: -16px;
+z-index: 3;
+}
+.text-shadow-on-scroll{
+border: 1px solid red;
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.btn-custom-info{
+    color:#ffffff;
+    background-color:#5BCCFF;
+    border: 1px solid #5BCCFF;
+}
+.btn-custom-info:hover{
+    color: #5BCCFF;
+    background-color: #fff;
+    border-color: #5BCCFF;
+}
+.btn-outline-custom-info{
+    color:#5BCCFF;
+    border: 1px solid #5BCCFF;
+    background-color: #fff;
+}
+.btn-outline-custom-info:hover{
+    color: #fff;
+    border-color: #5BCCFF;
+    background-color: #5BCCFF;
+}
+
+.btn-custom-info1{
+    color:#ffffff;
+    background-color:#0894D4;
+    border: 1px solid #0894D4;
+}
+.btn-custom-info1:hover{
+    color: #0894D4;
+    background-color: #fff;
+    border-color: #0894D4;
+}
+
+.btn-outline-custom-info1{
+    color:#0894D4;
+    border: 1px solid #0894D4;
+    background-color: #fff;
+}
+.btn-outline-custom-info1:hover{
+    color: #fff;
+    border-color: #0894D4;
+    background-color: #0894D4;
+}
