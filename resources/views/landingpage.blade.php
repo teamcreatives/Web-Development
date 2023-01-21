@@ -9,21 +9,21 @@
 
             {{-- large & medium --}}
             <div class="row">
-                <div class="col-md-6 col-sm-6 col-xm-6 mt-3">
+                <div class="offset-md-1 offset-sm-1 offset-xm-1 col-md-5 col-sm-5 col-xm-5 mt-3">
                     <h1 class="fw-bold">We make your<br>Offices and Homes<br><span style="color: #0894D4">clean, safe</span>
                         and<br> <span style="color: #0894D4">healthy</span></h1>
                     <div class="row mt-5">
-                        <div class="col-md-6 col-sm-6 col-xm-6">
-                            <a href="#" class=""><img src="{{asset('images/landing_page/512x512google.png')}}" alt="" class="img-fluid" width="200"></a>
+                        <div class="col-md-5 col-sm-5 col-xm-5">
+                            <a href="#" class=""><img src="{{asset('images/landing_page/512x512google.png')}}" alt="" class="img-fluid" width="150"></a>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xm-6">
-                            <a href="#" class=""><img src="{{asset('images/landing_page/512x512app.png')}}" alt="" class="img-fluid" width="200"></a>
+                        <div class="col-md-5 col-sm-5 col-xm-5">
+                            <a href="#" class=""><img src="{{asset('images/landing_page/512x512app.png')}}" alt="" class="img-fluid" width="150"></a>
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid col-md-6 col-sm-6 col-xm-6 mt-3">
+                <div class="container-fluid col-md-5 col-sm-5 col-xm-5 mt-3">
                     <img src="{{ asset('images/landing_page/Group 15168.png') }}" alt=""
-                        class="img-fluid float-end" width="400">
+                        class="img-fluid float-end" width="350">
                 </div>
             </div>
             {{-- _____________________________________________ --}}
@@ -79,7 +79,7 @@
                                 class="img-fluid p-3">
                             </div>
                         </div>
-                        
+
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold">Laundry And <br>Dry Cleaning</h5>
                             <p class="card-text text-center">We Offer Top Quality <br>Laundry And Dry Cleaning <br>Services
@@ -95,7 +95,7 @@
                                 class="img-fluid d-flex justify-content-center p-3">
                             </div>
                         </div>
-                        
+
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold">Residential <br>Cleaning</h5>
                             <p class="card-text text-center">We Use Environmentally <br> Friendly Products And <br>Advanced Techniques To <br>Ensure That Every Surface And<br> Crevice Of Your Home Is <br>Sparkling Clean.</p>
@@ -110,7 +110,7 @@
                                 class="img-fluid d-flex justify-content-center p-3">
                             </div>
                         </div>
-                        
+
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold">Sanitation And <br>Disinfection</h5>
                             <p class="card-text text-center">We Use Environmentally <br> Friendly Products And <br>Advanced
@@ -130,7 +130,7 @@
                                 class="img-fluid d-flex justify-content-center p-3">
                             </div>
                         </div>
-                        
+
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold">Commercial<br>Cleaning</h5>
                             <p class="card-text text-center">We Understand That A Clean Work <br>Environment Is Essential
@@ -147,7 +147,7 @@
                                 class="img-fluid p-3">
                             </div>
                         </div>
-                        
+
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold">Janitorial<br>Cleaning</h5>
                             <p class="card-text text-center">We Offer A Range Of Services, <br>Including Dusting And Wiping
