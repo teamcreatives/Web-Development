@@ -385,7 +385,7 @@
 
           <div class="row">
 
-            <div class="col-lg-4 col-md-6 mb-sm-5">
+            <div class="col-lg-4 col-md-6 mb-xs-5">
               <div class="member" data-aos="zoom-in">
                 <div class="pic"><img src="{{ asset('images/landing_page/rectangle-87-bg.png') }}" alt=""
                     class="img-fluid"></div>
@@ -404,7 +404,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-sm-5">
+            <div class="col-lg-4 col-md-6 mb-xs-5">
               <div class="member" data-aos="zoom-in" data-aos-delay="100">
                 <div class="pic"><img src="{{ asset('images/landing_page/rectangle-88.png') }}" alt=""
                     class="img-fluid"></div>
@@ -423,7 +423,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-sm-5">
+            <div class="col-lg-4 col-md-6 mb-xs-5">
               <div class="member" data-aos="zoom-in" data-aos-delay="200">
                 <div class="pic"><img src="{{ asset('images/landing_page/rectangle-89-bg.png') }}" class="img-fluid" alt=""></div>
                 <div class="member-info">
