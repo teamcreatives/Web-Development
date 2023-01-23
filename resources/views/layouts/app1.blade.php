@@ -93,7 +93,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6 col-xs-6 offset-xs-3">
             <div class="footer-info">
               <img src="{{ asset('images/landing_page/cleantech-logo-1.png')}}" alt="" class="img-fluid" width="60" height="50">
               <p>
@@ -109,7 +109,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-lg-2 col-md-6 col-xs-6 offset-xs-3 footer-links">
             <h4>About</h4>
             <ul>
               {{-- <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li> --}}
@@ -120,7 +120,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 col-xs-6 offset-xs-3 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#lan">Laundary And Dry Cleaning</a></li>
@@ -131,7 +131,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <div class="col-lg-4 col-md-6 col-xs-6 offset-xs-3 footer-newsletter">
             <h4 id="contact">Contact Us</h4>
             <p>
                 A108 Adam Street <br>
