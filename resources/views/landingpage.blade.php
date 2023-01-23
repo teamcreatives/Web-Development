@@ -15,10 +15,10 @@
                         <h2>Leave the house cleaning chores to us. Let us do the dirty work, so you don't have to.</h2>
                         <a href="#about" class="btn-get-started scrollto">Get Started</a>
                         <div class="row" id="button" style="margin-top: -10px">
-                            <div class="col-lg-4 col-sm-6 col-xs-6">
+                            <div class="col-lg-4 col-sm-6 col-xs-4">
                                 <a href="https://play.google.com/" class=""><img src="{{asset('images/landing_page/512x512google.png')}}" alt="" class="img-fluid" width="150"></a>
                             </div>
-                            <div class="col-lg-4 col-sm-6 col-xs-6">
+                            <div class="col-lg-4 col-sm-6 col-xs-4">
                                 <a href="https://www.apple.com/" class=""><img src="{{asset('images/landing_page/512x512app.png')}}" alt="" class="img-fluid" width="150"></a>
                             </div>
                         </div>
