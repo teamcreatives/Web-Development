@@ -25,7 +25,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/landingpage', [AdminController::class, 'landingPage'])->name('homepage');
+Route::get('/', [AdminController::class, 'landingPage'])->name('homepage');
 
 
 
