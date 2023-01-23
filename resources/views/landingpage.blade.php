@@ -14,6 +14,14 @@
                             and<br> <span style="color: #0894D4">healthy</span></h1>
                         <h2>Leave the house cleaning chores to us. Let us do the dirty work, so you don't have to.</h2>
                         <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                        <div class="row mt-2">
+                            <div class="col-md-5 col-sm-5 col-xm-5">
+                                <a href="#" class=""><img src="{{asset('images/landing_page/512x512google.png')}}" alt="" class="img-fluid" width="150"></a>
+                            </div>
+                            <div class="col-md-5 col-sm-5 col-xm-5">
+                                <a href="#" class=""><img src="{{asset('images/landing_page/512x512app.png')}}" alt="" class="img-fluid" width="150"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
@@ -146,7 +154,7 @@
                         <div class="icon-box icon-box-white">
                             <div class="icon"><img src="{{ asset('images/landing_page/laundry-cloth.png') }}"
                                     alt="" width="80" class="img-fluid"></div>
-                            <h4 class="title" style="font-family: poppins">Laundry And Dry Cleaning</h4>
+                            <h4 class="title" style="font-family: poppins" id="lan">Laundry And Dry Cleaning</h4>
                             <p class="description">We Offer Top Quality Laundry And Dry Cleaning Services Using Advanced
                                 Equipment And Environmentally Friendly Products.</p>
                         </div>
@@ -157,7 +165,7 @@
                         <div class="icon-box1 icon-box-white">
                             <div class="icon"><img src="{{ asset('images/landing_page/residential.png') }}" alt=""
                                     width="80" class="img-fluid"></div>
-                            <h4 class="title">Residential <br>Cleaning</h4>
+                            <h4 class="title" id="res">Residential <br>Cleaning</h4>
                             <p class="description">We Use Environmentally Friendly Products And Advanced Techniques To
                                 Ensure That Every Surface And Crevice Of Your Home Is Sparkling Clean.</p>
                         </div>
@@ -168,7 +176,7 @@
                         <div class="icon-box icon-box-white">
                             <div class="icon"><img src="{{ asset('images/landing_page/window.png') }}" alt=""
                                     width="80" class="img-fluid"></div>
-                            <h4 class="title">Sanitation And <br>Disinfection</h4>
+                            <h4 class="title" id="san">Sanitation And <br>Disinfection</h4>
                             <p class="description">We Use Environmentally Friendly Products And Advanced
                                 Techniques To Ensure That Every Surface And Crevice Of Your Home Is Sparkling
                                 Clean.</p>
@@ -183,7 +191,7 @@
                         <div class="icon-box icon-box-white">
                             <div class="icon"><img src="{{ asset('images/landing_page/commercial.png') }}" alt="" width="80"
                                 class="img-fluid"></div>
-                            <h4 class="title">Commercial<br>Cleaning</h4>
+                            <h4 class="title" id="com">Commercial<br>Cleaning</h4>
                             <p class="description">We Understand That A Clean Work Environment Is Essential
                                 For The Health And Of Employees And Customers, As Well As The Overall Success Of A Business.
                             </p>
@@ -194,7 +202,7 @@
                         <div class="icon-box icon-box-white">
                             <div class="icon"><img src="{{ asset('images/landing_page/janitor.png') }}" alt="" width="80"
                                 class="img-fluid"></div>
-                            <h4 class="title">Janitorial<br>Cleaning</h4>
+                            <h4 class="title" id="jan">Janitorial<br>Cleaning</h4>
                             <p class="description">We Offer A Range Of Services, Including Dusting And Wiping
                                 Down Surfaces, Vacuuming And Mopping Floors, Sanitizing Restrooms, And Emptying
                                 Trash Bins..
@@ -530,7 +538,7 @@
                 <div class="testimonial-item">
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    “I recently used Tidy up Cleaning Services for a deep clean of my home and I was extremely impressed with the level of professionalism and attention to detail displayed by the cleaning team. They arrived on time, were efficient and thorough in their work, and left my home sparkling clean”
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
@@ -543,7 +551,7 @@
                 <div class="testimonial-item">
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    “I recently used Tidy up Cleaning Services for a deep clean of my home and I was extremely impressed with the level of professionalism and attention to detail displayed by the cleaning team. They arrived on time, were efficient and thorough in their work, and left my home sparkling clean”
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
@@ -556,7 +564,7 @@
                 <div class="testimonial-item">
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    “I recently used Tidy up Cleaning Services for a deep clean of my home and I was extremely impressed with the level of professionalism and attention to detail displayed by the cleaning team. They arrived on time, were efficient and thorough in their work, and left my home sparkling clean”
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
@@ -569,7 +577,7 @@
                 <div class="testimonial-item">
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    “I recently used Tidy up Cleaning Services for a deep clean of my home and I was extremely impressed with the level of professionalism and attention to detail displayed by the cleaning team. They arrived on time, were efficient and thorough in their work, and left my home sparkling clean”
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">

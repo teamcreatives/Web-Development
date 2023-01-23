@@ -99,12 +99,6 @@
               <p>
                 Experience the magic <br>of a sparkling clean <br>home with our reliable <br>and efficient cleaning <br>services
               </p>
-              <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -129,15 +123,22 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Laundary And Dry Cleaning</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Residential Cleaning</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Sanitation And Disinfection</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Commercial Cleaning</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Janitorial Cleaning</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#lan">Laundary And Dry Cleaning</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#res">Residential Cleaning</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#san">Sanitation And Disinfection</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#com">Commercial Cleaning</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#jan">Janitorial Cleaning</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4 id="contact">Contact Us</h4>
+            <p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
             {{-- <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
