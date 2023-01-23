@@ -6,7 +6,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center"
+                <div class="col-lg-6 col-xs-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center"
                     data-aos="fade-up">
                     <div>
                         <h1 style="font-family: Poppins">We make your<br>Offices and Homes<br><span
@@ -395,10 +395,10 @@
                   <div class="social">
                     <p>A highly motivated and reliable cleaner with over
                         5 years of experience.</p>
-                    <a href=""><i class="bi bi-twitter"></i></a>
+                    {{-- <a href=""><i class="bi bi-twitter"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
                     <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a> --}}
                   </div>
                 </div>
               </div>
@@ -414,10 +414,10 @@
                   <div class="social">
                     <p>A reliable and skilled janitor with
                         over 10 years of experience in the field.</p>
-                    <a href=""><i class="bi bi-twitter"></i></a>
+                    {{-- <a href=""><i class="bi bi-twitter"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
                     <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a> --}}
                   </div>
                 </div>
               </div>
@@ -432,10 +432,10 @@
                   <div class="social">
                     <p>Meet Balogun, with over 15 years of experience in
                         the industry.</p>
-                    <a href=""><i class="bi bi-twitter"></i></a>
+                    {{-- <a href=""><i class="bi bi-twitter"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
                     <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a> --}}
                   </div>
                 </div>
               </div>
